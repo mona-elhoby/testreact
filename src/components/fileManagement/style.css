@@ -1,0 +1,363 @@
+
+/* File Details */
+.FileDetails {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.FileDetails .navs-tab {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.FileDetails .navs-tab .nav li p {
+	margin-bottom: 0 !important;
+}
+
+.FileDetails .navs-tab .nav-item {
+	position: relative;
+	padding: 15px 5px;
+	text-align: center;
+	border: 1px solid #d9d9d9;
+	color: #2f579a;
+	border-bottom: none;
+	border-left: none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	flex: 1;
+}
+
+.FileDetails .navs-tab .nav-item:first-of-type,
+.FileDetails .navs-tab .nav-item:nth-of-type(11),
+.FileDetails .navs-tab .nav-item:last-of-type,
+.FileDetails .navs-tab .nav-item:nth-of-type(10) {
+	flex: 2;
+}
+
+/* .FileDetails .navs-tab .nav-item:nth-of-type(10){
+    flex:3
+} */
+.FileDetails .navs-tab .nav-item:last-of-type {
+	border-left: 1px solid #d9d9d9;
+}
+
+.FileDetails .navs-tab .active,
+.FileDetails .navs-tab .nav-item:hover {
+	background-color: #1e42a0;
+	border-color: #1e42a0;
+	color: #fff;
+}
+
+.FileDetails .navs-tab :after {
+	content: '';
+	position: absolute;
+	height: 0;
+	width: 0;
+	background-color: #fff;
+	bottom: -10px;
+	left: calc(50% - 13px);
+	border-width: 13px;
+	border-color: #1e42a0 #1e42a0 #fff;
+	border-style: solid;
+	transition: all 0.2s ease-in-out;
+	opacity: 0;
+}
+
+.FileDetails .navs-tab .active:after,
+.FileDetails .navs-tab .nav-item:hover:after {
+	opacity: 1;
+}
+
+.FileDetails .navs-tab .nav-item span {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.data-show {
+	position: relative;
+}
+
+.data-show > div {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.data-show .show {
+	z-index: 99;
+	opacity: 1;
+	display: block;
+}
+
+.data-show .hide,
+.hide {
+	display: none;
+	opacity: 0;
+}
+
+.modal .sesTime {
+	padding-left: 20px !important;
+}
+
+.modal .sesREquirement {
+	background-color: #1e42a0 !important;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.modal .btn-modal-save {
+	background-color: #1e42a0 !important;
+}
+
+.modal .sesRequirementDiv textarea {
+	width: calc(100% - 30px) !important;
+	display: inline-block;
+}
+
+.invalid-feedback {
+	margin-top: -15px !important;
+	font-size: 10px;
+}
+
+/* alarms page */
+.file-alerts table.dataTable thead {
+	/* display: none; */
+}
+
+/* file-sessions */
+
+
+
+.file-alerts div.dataTables_wrapper div.dataTables_length {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.file-sessions .addSes button,
+.file-cases .headerFiles .addSes button:first-of-type,
+.file-executes .headerFiles .addSes button {
+	background-color: #1e42a0 !important;
+	padding: 0 !important;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+
+/* file cases */
+.relativeDiv-wrapper {
+	color: #fff;
+	padding-right: 80px;
+	display: block;
+}
+/* file Graph */
+.Node-module_rect__1Eal3 {
+	fill: #1e42a0 !important;
+	stroke: #1e42a0 !important;
+}
+
+.tree svg g > g {
+	transform: translate(65, 30.75);
+}
+
+.react-flow {
+	height: 900px !important;
+}
+
+.react-flow__viewport {
+	width: 150px !important;
+}
+
+.react-flow__attribution a {
+	display: none !important;
+}
+
+.react-flow__edge-textbg {
+	fill: transparent !important;
+}
+
+.tree strong {
+	font-size: 8px !important;
+	font-weight: bold;
+}
+
+.informing-modal .divCell:nth-of-type(4n) {
+	display: flex;
+	padding: 10px 5px;
+}
+.informing-modal .headRow .divCell {
+	padding: 5px 0 !important;
+	color: #142f76;
+	font-weight: 400;
+	font-size: 14px;
+}
+.informing-modal .headRow .divCell:nth-of-type(4) {
+	display: block;
+}
+.finance-modal .invoiceFooter {
+	display: flex;
+}
+.finance-modal .invoiceFooter .form-label {
+	width: 70px;
+}
+.finance-modal .invoiceFooter .form-control {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	width: 120px !important;
+	margin-right: 1px;
+	border-radius: 0;
+	height: 20px !important;
+}
+.finance .voucher-invoice {
+	position: absolute;
+	right: 30px;
+	padding: 0 !important;
+	margin-top: -10px;
+}
+.finance .voucher-invoice p {
+	cursor: pointer;
+	font-size: 12px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+	margin-bottom: 0 !important;
+	padding: 5px;
+}
+.finance .voucher-invoice p:hover {
+	background: rgba(0, 0, 0, 0.07);
+}
+.note-modal .divCell {
+	width: calc(100% / 5) !important;
+}
+.note-modal .divTable {
+	margin-top: 0 !important;
+}
+/* grph */
+#graph-id svg g {
+	background: #cf0;
+}
+
+#clario-extension {
+	display: none !important;
+}
+
+/* #graph-id-graph-wrapper svg g{
+    tranform: translate()
+} */
+
+.theChart {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.theChart .btn-custom {
+	color: #fff;
+	display: block;
+	margin: 23px auto;
+	background-color: #1e42a0 !important;
+	box-shadow: none;
+}
+
+.theChart .btn-custom:hover {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.titleFoot {
+	font-size: 10px;
+	display: block;
+	margin-top: -3px;
+}
+.file-cases .table {
+	border: 1px solid #d1d3e0 !important;
+}
+.file-management .css-vamk89-MuiFormControl-root,
+.alarms .css-vamk89-MuiFormControl-root,
+.file-alerts .css-vamk89-MuiFormControl-root,
+.file-sessions .css-vamk89-MuiFormControl-root {
+	margin-top: 0 !important;
+}
+.file-management .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.file-alerts .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.alarms .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.file-sessions .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	width: 107px !important;
+}
+.works-page .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.file-management .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	width: 115px !important;
+}
+
+.informing-modal .divTable,
+.contract-modal .divTable,
+.finance-modal .divTable {
+	margin-top: 20px;
+	display: table;
+	width: 100%;
+	border-spacing: 0; /*cellspacing:poor IE support for  this*/
+}
+.informing-modal .divRow,
+.contract-modal .divRow,
+.finance-modal .divRow {
+	display: table-row;
+	width: 100%;
+}
+.informing-modal .divCell,
+.contract-modal .divCell,
+.finance-modal .divCell {
+	float: right; /*fix for  buggy browsers*/
+	display: table-column;
+	border: 1px solid #c0c0c0;
+	border-top: none;
+	border-left: none;
+	width: calc(100% / 6);
+	padding: 6px 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+.informing-modal .headRow,
+.contract-modal .headRow,
+.finance-modal .headRow {
+	border-top: 1px solid #c0c0c0;
+}
+.informing-modal .divCell:last-of-type,
+.contract-modal .divCell:last-of-type,
+.finance-modal .divCell:last-of-type {
+	border-left: 1px solid #c0c0c0;
+}
+.informing-modal .divCell{
+	width: calc(100% / 4) !important;
+}
+.finance-modal .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+	height: 35px !important;
+}
+
+.file-cases .headerFiles,
+.file-sessions .headerFiles,
+.file-executes .headerFiles {
+	margin-bottom: 50px !important;
+}
+.file-sessions .classified-global-criteria {
+	margin-bottom: 40px;
+}
+
+.file-cases .graghCase {
+	width: auto !important;
+}
+
+.file-cases .graghCase a {
+	color: #fff !important;
+	padding: 0 8px !important;
+	font-size: 11px;
+}
+.file-executes .addConstant {
+	margin-top: 9px !important;
+}
+.works-page .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.file-management .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	width: 115px !important;
+}

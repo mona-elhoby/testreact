@@ -1,0 +1,72 @@
+
+.agency th {
+	font-size: 14px;
+}
+
+.agency td {
+	font-size: 12px;
+}
+
+.agency .card-inputs-flex .input-group {
+	width: 60%;
+}
+
+.agency .card-inputs-flex .input-group svg {
+	height: 2.4rem;
+	background: #dcdfe3;
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+	font-size: 12px;
+	padding: 0 10px;
+	border: 1px solid gray;
+}
+
+.agency .page-item.active .page-link {
+	background-color: #1e42a0 !important;
+	border-color: #1e42a0 !important;
+	color: #fff;
+}
+
+.agency .page-item .page-link {
+	color: gray;
+	cursor: pointer;
+}
+
+.agency-modal .table thead th {
+	padding-top: 0.6rem !important;
+	padding-bottom: 0.6rem !important;
+	font-weight: bold;
+}
+
+.agency-modal .table {
+	margin-top: 0 !important;
+}
+.agency-navs ul p {
+	padding: 10px 15px;
+	margin-left: 10px;
+	background-color: #fff;
+	color: #1e42a0;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid #1e42a0;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.agency-navs ul p:hover {
+	color: #fff;
+	background-color: #142f76;
+}
+
+.agency-navs .nav-item span {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.agency-navs {
+	padding-bottom: 15px;
+}
+
+.agency-navs ul svg {
+	height: 22px;
+}

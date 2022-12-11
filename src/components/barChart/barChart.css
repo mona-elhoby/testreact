@@ -1,0 +1,64 @@
+.allChart {
+	width: 12px;
+	height: 7px;
+	background: rgb(54, 162, 235);
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: 25px;
+}
+
+.showChart .secondSpeicified {
+	background: rgb(255 206 86);
+}
+.showChart .thirdSpecified {
+	background: rgb(255 99 132);
+}
+.spanVariant,
+.spanVariant2 {
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: 25px;
+}
+.chartLabel2,
+.chartLabel {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 5px;
+	width: 100%;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	background: #fff;
+	top: 100%;
+	right: 0px;
+	z-index: 999999999999999;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	display: none;
+}
+.chartjs-tooltip{
+    padding: 5px 2px !important;
+}
+.chartjs-tooltip table td{
+    font-size: 11px;
+}
+.chartjs-tooltip table td span{
+    margin-right: 2px !important;
+    height: 7px !important;
+    width: 7px !important;
+}
+.customchart:hover > .container-card .chartLabel {
+	opacity: 1;
+	display: flex;
+}
+.customchart span{
+
+}
+.customchart h5{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}

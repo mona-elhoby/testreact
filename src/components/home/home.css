@@ -1,0 +1,329 @@
+
+.homeDashboard .accordion-button:not(.collapsed) {
+	background: transparent;
+	font-weight: 500;
+	padding: 0 20px !important;
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid rgba(200, 200, 200, 0.1);
+}
+.homeDashboard .accordion-button:not(.collapsed)::after {
+	background: var(
+		--cui-accordion-button-icon,
+		url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27rgba%2844, 56, 74, 0.95%29%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e')
+	);
+}
+.homeDashboard .accordion-item {
+	border: none !important;
+	border-bottom: 1px solid rgba(20, 20, 20, 0.1) !important;
+	padding-top: 10px;
+}
+.homeDashboard .accordion-button:focus {
+	z-index: 3;
+	border-color: none !important;
+	outline: 0;
+	box-shadow: none !important;
+}
+.homeDashboard .accordion-button {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+.homeDashboard .table-responsive tbody tr {
+	cursor: pointer;
+}
+.homeDashboard .home-appiontment .card-header {
+	background-color: #fff !important;
+	border-color: rgba(0, 0, 0, 0.07) !important;
+	border-top: none !important;
+	padding-top: 15px;
+	padding-bottom: 0;
+}
+.homeDashboard .fileChart .card-header,
+.homeDashboard .home-contracts .card-header {
+	padding: 15px;
+}
+.homeDashboard .fileChart canvas {
+	display: inline !important;
+	width: 100% !important;
+	height: 135px !important;
+}
+.homeDashboard .fileChart .card-body {
+	padding: 0 !important;
+}
+.homeDashboard .home-chart .card-header {
+	padding: 15px;
+	background: #fff;
+	border-color: rgba(5, 5, 5, 0.05);
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	border: none !important;
+}
+.homeDashboard .home-chart .card-body {
+	padding: 0 !important;
+}
+.homeDashboard .workDeclinedReminder {
+	display: flex;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 63%;
+	margin-bottom: 20px;
+}
+.homeDashboard .workDeclinedReminder .declineWork,
+.homeDashboard .workDeclinedReminder .reminderWork {
+	width: 50%;
+	text-align: center;
+	padding: 40px 15px;
+}
+.homeDashboard .workDeclinedReminder .reminderWork {
+	background: linear-gradient(to top, #864ba2, #e5577d);
+	color: #fff;
+}
+.homeDashboard .workDeclinedReminder .declineWork {
+	background: linear-gradient(to top, #ee3158, #bd4f6c);
+	color: #fff;
+}
+.homeDashboard .workDeclinedReminder strong:first-of-type {
+	display: block;
+	margin-bottom: 20%;
+    font-size: 22px;
+    font-weight: 500;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.homeDashboard .workDeclinedReminder strong:last-of-type {
+	display: block;
+	font-size: 2.1rem;
+	margin-top: 20%;
+	margin-bottom: -2px;
+}
+.homeDashboard .notDoneWork {
+	background: linear-gradient(#cce5ff, #cce5ee) !important;
+	border-radius: 10px;
+	margin-top: 15px;
+	display: flex;
+	color: #3596f7;
+	padding: 15px 15px;
+	justify-content: space-between;
+	height: calc(35% - 35px);
+}
+.homeDashboard .workDeclinedReminder .MuiSvgIcon-fontSizeLarge {
+	font-size: 3rem !important;
+}
+.homeDashboard .notDoneWork .strong {
+	font-size: 2.1rem;
+}
+.homeDashboard .percentage {
+	opacity: 0.5;
+	font-size: 18px;
+}
+.homeDashboard .percentage p{
+	margin-bottom: 0 !important;
+}
+.homeDashboard .dataTable h6 {
+	font-size: 12px;
+	font-weight: 400;
+	color: #7e8299;
+	overflow-wrap: break-word;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: right;
+}
+.homeDashboard .adjButton {
+	padding: 8px 5px;
+	border-radius: 3px;
+	color: #fff !important;
+	/* display: inline-block; */
+	margin-top: -15px;
+}
+.homeDashboard table .colorNotActive {
+	background-color: #ffce56;
+}
+.homeDashboard table .colorActive {
+	background: #3455a9;
+}
+
+.homeDashboard .cases-chart .chart-wrapper {
+	margin-top: 0 !important;
+	height: 180px !important;
+}
+
+.homeDashboard .cases-chart .card-header,
+.home-contracts .card-header {
+	border-top: none !important;
+	background-color: transparent;
+	font-weight: 400;
+	color: #333;
+	font-size: 16px;
+	border-bottom: none !important;
+	padding: 15px 15px 0 0;
+}
+.home-contracts .card-body{
+	padding: 0 1rem 0;
+}
+
+.homeDashboard .onGoingStage {
+	box-shadow: 0 3px 8px 2px rgb(0 0 0 / 5%);
+	border: 1px solid #efeffd;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.homeDashboard .onGoingStage div.dataTables_wrapper div.dataTables_paginate,
+.homeDashboard .onGoingStage .datatable-pagination {
+	display: none !important;
+}
+
+.homeDashboard .onGoingStage thead,
+.homeDashboard .onGoingStage .dataTables_length,
+.homeDashboard .onGoingStage div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+	display: none !important;
+}
+
+.homeDashboard .onGoingStage h5 {
+	padding: 15px;
+	color: #172b4c;
+	display: block;
+	padding: 1.5rem;
+	position: relative;
+	border-bottom: 1px solid #efeffd;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.homeDashboard .onGoingStage .table .circle {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background-color: #00c851;
+	margin-left: 10px;
+	align-self: center;
+}
+
+.homeDashboard .onGoingStage .table small {
+	color: #172b4c;
+	font-weight: 400;
+	display: block;
+	text-align: right;
+}
+
+.homeDashboard .onGoingStgaeInWeek {
+	cursor: pointer;
+}
+
+.onGoingStage .collapse.hide {
+	display: none;
+}
+
+.onGoingStage .collapse.show {
+	display: block;
+}
+.onGoingStage .nextWeekbtn {
+	font-size: 14px;
+}
+.homeDashboard {
+	padding-bottom: 60px;
+}
+
+.homeDashboard .scheduleCard {
+	justify-content: space-between;
+}
+.homeDashboard .dailyCard .icon {
+	background-color: transparent !important;
+	margin-left: 0 !important;
+}
+.homeDashboard .home-appiontment {
+	margin-bottom: 20px;
+}
+.homeDashboard .home-appiontment h5 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.homeDashboard .progress {
+	height: 6px !important;
+}
+
+.home-contracts canvas {
+	margin-bottom: 15px;
+	width: 235px !important;
+    height: 155px !important;
+	margin: 0 auto -40px auto;
+}
+.home-appiontment .dailyCard .time p,
+.home-appiontment .clientCard .time p,
+.home-appiontment .scheduleCard .time p {
+	color: #7e8299 !important;
+}
+.home-appiontment .clientCard .icon {
+	background-color: transparent !important;
+}
+.home-appiontment .clientCard .img {
+	border-radius: 5px;
+	overflow: hidden;
+	height: 40px;
+	width: 40px;
+}
+.onGoingStage table td {
+	min-width: auto !important;
+	max-width: auto !important;
+	vertical-align: baseline !important;
+}
+.homeDashboard .workDeclinedReminder .MuiSvgIcon-fontSizeLarge {
+	animation: home-reminder-icon 1s linear 0s infinite alternate none running;
+}
+.homeDashboard .scheduleCard {
+	display: flex;
+}
+.homeDashboard .scheduleCard {
+	margin-bottom: 15px !important;
+}
+.homeDashboard .scheduleCard:last-of-type{
+	margin-bottom: 0 !important;
+}
+.homeDashboard .scheduleCard:first-of-type{
+	/* margin-top: 10px; */
+}
+.homeDashboard .scheduleCard .icon {
+	color: #fff;
+	border-radius: 5px;
+	line-height: 40px;
+	margin-left: 15px;
+}
+.homeDashboard .scheduleCard .icon svg{
+	color: #1e42a0;
+	font-size: 1.8em;
+}
+.homeDashboard .scheduleCard .time {
+	width: calc(100% - 25px);
+}
+.homeDashboard .scheduleCard .time h6 {
+	color: #1e42a0;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 1px !important;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 99%;
+	line-height: 1.2;
+}
+.homeDashboard .scheduleCard .time p {
+	font-size: 13px;
+	margin-bottom: 0 !important;
+}
+@keyframes home-reminder-icon {
+	0% {
+		transform: scale(1.1);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}

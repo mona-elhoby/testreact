@@ -1,0 +1,124 @@
+
+.sidebar {
+	border-right: 0px solid rgba(72, 94, 144, 0.16) !important;
+	background-color: #f8f8fa !important;
+	transition: all 0.3s ease-in-out;
+	padding: 20px;
+}
+
+.sidebar-toggler,
+.sidebar-brand {
+	background-color: #f8f8fa !important;
+	/* display: none !important; */
+}
+
+.sidebar-nav .nav-icon,
+.sidebar .nav-link,
+.sidebar .nav-group {
+	color: #5c607b;
+	font-weight: bold;
+}
+
+.sidebar-toggler:hover,
+.sidebar-nav .nav-link:hover,
+.sidebar-nav .nav-link:hover .nav-icon,
+.sidebar-nav .nav-link.active .nav-icon,
+.sidebar-nav .nav-link.active {
+	color: #1e42a0 !important;
+}
+
+.sidebar .image {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	margin-top: 50px;
+	border: 5px solid rgba(255, 255, 255, 0.3);
+	background-color: #b9cbfb !important;
+	color: #1e42a0;
+	display: block;
+	margin: auto;
+}
+
+.sidebar .image img {
+	border-radius: 96px;
+}
+
+.sidebarFooter {
+	background-color: #b9cbfb !important;
+	color: #1e42a0;
+	height: 130px;
+	width: 80%;
+	margin: -100px auto auto;
+	border-radius: 20px;
+}
+
+.sidebar-nav .nav-group-toggle::after {
+	content: '\27BA';
+	transform: rotate(180deg);
+	background-image: none !important;
+}
+
+.sidebar-nav .nav-group.show > .nav-group-toggle::after {
+	transform: rotate(90deg) !important;
+}
+
+.sidebar-nav .nav-group.show {
+	background: transparent !important;
+}
+
+.sidebar-nav .nav-group.show .nav-group-toggle {
+	color: #1e42a0 !important;
+}
+
+.sidebar-nav .nav-group .nav-group-items {
+	padding-right: 5px !important;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.sidebar-nav .nav-group .nav-group-items .nav-group-items {
+	padding-right: 10px !important;
+}
+
+.sidebar-nav .nav-icon {
+	margin-left: -10px !important;
+}
+
+.sidebar-nav .nav-group .nav-group-items .nav-item {
+	list-style-type: circle !important;
+	list-style-position: inside;
+	padding-right: 25px;
+}
+
+.menueIcon {
+	border-radius: 5px;
+	padding: 15px;
+	border-radius: 5px;
+	background: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.menueIcon svg:first-of-type {
+	background-color: #1e42a0 !important;
+}
+
+.menueIcon svg {
+	height: 4px !important;
+	background: #434;
+	margin-top: 0.1rem;
+	border-radius: 4px;
+	background: #b9cbfb !important;
+	display: block;
+}
+
+.menueIcon:hover {
+	background: #1e42a0;
+}
+
+.menueIcon:hover > .firstIcon:first-of-type {
+	background: #b9cbfb !important;
+}
+
+.menueIcon:hover > .firstIcon {
+	background-color: #a2a0f0 !important;
+}

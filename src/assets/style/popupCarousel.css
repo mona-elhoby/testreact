@@ -1,0 +1,40 @@
+
+.carousel-inner{
+	padding-bottom: 30px;
+}
+.carousel-control-prev, .carousel-control-next{
+	height: 20px !important;
+	top: auto !important;
+}
+.carousel-fade .carousel-item.active{
+	background: #FFF;
+}
+#carousel-control-next{
+	opacity: .1;
+	cursor: not-allowed;
+}
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon{
+	background-image: none !important;
+	position: relative;
+	font-size: 10px;
+	width: 100px;
+	filter: none !important;
+	font-weight: 500;
+	color: #1e42a0;
+}
+.carousel .carousel-control-prev-icon:after{
+ position: absolute;
+ content: 'التالي >>';
+} 
+.carousel .carousel-control-next-icon:after{
+	position: absolute;
+	content: " << السابق ";
+	right: 0;
+}.carousel-control-prev,
+.carousel-control-next{
+	opacity: .8;
+}
+.carousel-control-prev:disabled,
+.carousel-control-next:disabled{
+	opacity: .2;
+}

@@ -1,0 +1,178 @@
+/* schedule */
+.schedule {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.schedule .file-cases .data .date {
+	height: 60px;
+	line-height: 20px;
+	padding-top: 13px;
+}
+
+.schedule .file-cases .table-div {
+	position: static !important;
+}
+
+.schedule .file-cases .table-div:after {
+	display: none;
+}
+
+.schedule .file-cases .tablewrapper {
+	position: relative;
+	right: 40px;
+	width: calc(100% - 100px);
+}
+
+.schedule .file-cases .table-div:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 2px;
+	height: 44px;
+	background-color: #1e42a0;
+	right: -20px;
+	transform: rotate(90deg);
+	top: 25px;
+}
+.makeStyles-selectBox-8 {
+	border-radius: 5px;
+	padding: 3px 10px !important;
+	font-size: 12px;
+}
+.makeStyles-selectBox-8:focus-visible {
+	outline: none !important;
+}
+.schedule .scheduleCard .icon .img {
+	border-radius: 5px;
+	overflow: hidden;
+}
+.schedule h5 {
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 10px;
+}
+.schedule .chartjs-tooltip {
+	padding: 2px !important;
+}
+.schedule .chartjs-tooltip-header {
+	background-color: transparent !important;
+}
+
+.schedule input[type='date']::-webkit-calendar-picker-indicator {
+	opacity: 0;
+	width: 100%;
+	-webkit-appearance: none;
+	background: transparent !important;
+	color: transparent !important;
+	position: absolute;
+}
+
+
+.schedule .form-control {
+	display: inline-block !important;
+	width: auto !important;
+	background: transparent;
+	color: #f0f0f0 !important;
+	border: none;
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: relative;
+}
+
+.schedule .form-control:focus {
+	color: #f0f0f0;
+	box-shadow: none !important;
+	border: 1px solid #f0f0f0;
+	color: #f0f0f0 !important;
+}
+
+.schedule thead {
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	background-color: #e4e4e4;
+}
+
+.schedule .fc-theme-standard th[role='presentation'] {
+	padding-bottom: 0 !important;
+}
+
+.schedule .fc-col-header-cell {
+	background-color: #e4e4e4;
+	/* padding: 5px !important; */
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.homeDashboard .scheduleCard {
+	display: flex;
+	/* justify-content: space-around; */
+}
+.schedule .scheduleCard{
+	margin-bottom: 15px !important;
+	display: flex;
+}
+.schedule .scheduleCard .icon {
+	background-color: #1e42a0;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	line-height: 40px;
+	margin-left: 15px;
+}
+.schedule .scheduleCard .time{
+	width: calc(100% - 25px);
+}
+.schedule .scheduleCard .time h6{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 1px !important;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 99%;
+	color: #1e42a0;
+}
+.schedule .scheduleCard .time p{
+	font-size: 13px;
+	margin-bottom: 0 !important;
+	color: #7e8299 !important;
+}
+
+.fc-daygrid-day-frame:after,
+.fc-daygrid-day-events:after,
+.fc-daygrid-event-harness:after {
+	display: none !important;
+}
+.fc .fc-scrollgrid-section table,
+.fc .fc-daygrid-body,
+.fc .fc-scroller-liquid-absolute,
+.fc .fc-scroller-harness,
+.fc .fc-view-harness-active > .fc-view,
+.fc .fc-view-harness,
+.fc .fc-scrollgrid-liquid,
+.fc .fc-view-harness-active > .fc-view,
+.fc .fc-view-harness {
+	width: 100% !important;
+	direction: rtl;
+}
+
+.makeStyles-calendar-3,
+.makeStyles-calendar-49 {
+	width: 90% !important;
+	border: 3px dashed #e4e4e4;
+	border-radius: 12px;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+	border-color: rgba(0, 0, 0, 0.1) !important;
+	font-weight: bold;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+	padding: 5px !important;
+}

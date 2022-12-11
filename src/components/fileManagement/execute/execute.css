@@ -1,0 +1,159 @@
+
+/* file execute */
+.file-executes {
+	padding-top: 20px;
+}
+
+.file-executes .card-header {
+	/* background-color: rgba(30,66,160,.9); */
+	color: rgba(30, 66, 160, 1);
+	padding: 0 10px;
+}
+
+.file-executes .card-header strong {
+	font-size: 14px;
+}
+
+.file-executes .card-header button {
+	border-radius: 50%;
+	padding: 0 !important;
+	width: 30px;
+	height: 30px;
+}
+
+.file-executes .card-header button:first-of-type {
+	background: rgba(30, 66, 160, 1) !important;
+}
+
+.file-executes .card-body {
+	position: relative;
+	height: 100%;
+	min-height: 200px;
+	text-align: right;
+	padding: 0.5rem 1rem;
+}
+
+.file-executes .card-body .frontScreen,
+.file-executes .card-body .backScreen {
+	height: 100%;
+	padding: 20px 15px;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	top: 0;
+	right: 0;
+	transform-style: preserve-3d;
+	transition: all 0.6s ease-in-out;
+}
+
+.file-executes .card-body .backScreen {
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+
+.file-executes .card-body .backScreen p {
+	font-size: 12px;
+}
+
+.file-executes .card-body .visible {
+	transform: rotateY(360deg);
+	opacity: 1;
+}
+
+.file-executes .card-body .table {
+	border: none !important;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.file-executes .card-body thead {
+	display: none;
+}
+
+.file-executes .card-body tbody tr {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: right;
+}
+
+.file-executes .card-title {
+	font-size: 14px;
+	margin-bottom: 0 !important;
+}
+
+.file-executes .execute-flipflop {
+	background: #1e42a0 !important;
+	border-radius: 10px;
+	padding: 8px 12px;
+	font-size: 12px;
+}
+.file-executes .data-show {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	/* min-height: 50px; */
+	padding: 2px 5px;
+}
+.file-executes .addConstant .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+	color: #fff !important;
+	background: #1e42a0 !important;
+	padding: 10px 5px 0 30px;
+	height: 42px;
+}
+.file-executes .addConstant .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+	color: #fff !important;
+}
+.file-executes .addConstant .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+	border-width: 0 !important;
+}
+.executePopup .tabs {
+	list-style: none;
+	color: #1e42a0 !important;
+	display: flex;
+	font-weight: bold;
+	padding-right: 0 !important;
+	border-bottom: 1px solid #1e42a0;
+}
+
+.executePopup .tabs li {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: -1px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.executePopup .tabs li.active {
+	background-color: #1e42a0;
+	color: #fff;
+}
+
+.executePopup .absDiv {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.executePopup .executeRelativeDiv {
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.executePopup .active {
+	opacity: 1;
+	z-index: 99;
+}
+.file-executes .execute-card {
+	margin-bottom: 20px;
+}
+.file-executes .execute-card h6,
+.file-executes .execute-card td strong {
+	font-size: 12px;
+	font-weight: 500;
+}
+.file-executes .execute-card td span {
+	font-size: 11px;
+	font-weight: 400;
+}

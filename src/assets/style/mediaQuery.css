@@ -1,0 +1,232 @@
+
+@media (min-width: 1200px) {
+	.modal-dialog {
+		min-width: 1000px;
+		height: 100%;
+	}
+	.login-box {
+		width: 700px !important;
+	}
+	.container-xl,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container {
+		max-width: 1240px !important;
+	}
+	.profile .btns button:first-of-type {
+		padding: 10px 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.modal-dialog {
+		max-width: 800px;
+	}
+	.login-box {
+		width: 500px !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.modal-dialog {
+		max-width: 700px;
+	}
+	.contacts table tbody tr {
+		width: 100% !important;
+	}
+	.homeDashboard .workDeclinedReminder .declineWork,
+	.homeDashboard .workDeclinedReminder .reminderWork {
+		padding: 10px;
+	}
+	.file-cases .table-div {
+		margin-bottom: 20px;
+	}
+	.home-contracts canvas {
+		width: 90% !important;
+	}
+	
+	.modal-dialog {
+		max-width: 650px !important;
+	}
+}
+@media (max-width: 1200px) {
+	.homeDashboard .workDeclinedReminder strong:last-of-type {
+		margin-top: 20%;
+	}
+	.homeDashboard .workDeclinedReminder strong:first-of-type {
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.homeDashboard .percentage {
+		margin-bottom: 0 !important;
+	}
+	.homeDashboard .notDoneWork {
+		height: auto !important;
+	}
+	.homeDashboard .workDeclinedReminder strong:first-of-type {
+		font-size: 16px;
+	}
+}
+@media (max-width: 768px) {
+	.agency-navs ul {
+		display: none !important;
+	}
+	.home-contracts canvas {
+		width: 250px !important;
+	}
+	.file-sessions .sesData .sesDate {
+		margin-left: auto !important;
+		float: right !important;
+		margin-right: -30px;
+	}
+	.file-sessions .sesData .data-container .icon {
+		left: auto !important;
+		right: -15px !important;
+	}
+	.file-sessions .sesData {
+		border-left: none !important ;
+		border-right: 2px dotted gray !important;
+	}
+	.file-sessions .sesData,
+	.file-sessions .borderRight {
+		width: calc(100% - 40px) !important;
+		margin-right: 40px !important;
+	}
+	.file-sessions .sesData .data:before {
+		display: none !important;
+	}
+	.file-sessions .sesData .data:after,
+	.file-sessions .borderRight .data:after {
+		border-color: transparent transparent transparent #8c8c8c !important;
+		right: -4px !important;
+		left: auto !important;
+	}
+	.FileDetails .navs-tab :after {
+		display: none;
+	}
+	.file-executes .execute-card {
+		margin-bottom: 20px;
+	}
+	.FileDetails .navs-tab .nav li p {
+		margin-bottom: 0 !important;
+	}
+	.FileDetails .navs-tab .nav li span {
+		display: none;
+	}
+}
+@media (min-width: 992px) {
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container {
+		max-width: 98% !important;
+	}
+.modal-dialog {
+    max-width: 750px !important;
+}
+}
+@media (max-width: 500px) {
+	.appiontments,
+	.daily-update .daily-update-wrapper {
+		padding: 20px 5px;
+		border: none;
+		box-shadow: none !important;
+	}
+	.daily-update .daily-update-wrapper {
+		padding: 20px 15px 20px 5px;
+	}
+	.daily-update .dailySection .daily-wrapper .header .name h4 {
+		font-size: 14px !important;
+	}
+	.breadcrumb .breadcrumb-item a {
+		font-size: 12px;
+	}
+	.contacts .headerFiles {
+		height: 108px !important;
+	}
+	.classified-global-criteria .MuiFormControl-root {
+		width: 100% !important;
+	}
+	.file-sessions .headerFiles,
+	.file-cases .headerFiles,
+	.file-executes .headerFiles,
+	.headerFiles {
+		display: block !important;
+	}
+	.file-alerts .add-contact,
+	.contacts div.dataTables_wrapper .add-contact,
+	.file-alerts .add-contact,
+	.headerFiles .add-contact,
+	.contracts .dataTables_length .add-contact,
+	.appiontments .addSes button {
+		height: 35px !important;
+		width: 35px !important;
+		margin-left: 10px;
+	}
+	.classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+		height: 35px !important;
+		width: 130px;
+	}
+	.headerFiles,
+	.contracts div.dataTables_wrapper .row:first-of-type,
+	.file-alerts .dataTables_wrapper .row:first-of-type.accordian-details,
+	.file-cases .headerFiles,
+	.file-sessions .headerFiles,
+	.file-alerts div.dataTables_wrapper .row:first-of-type,
+	.file-executes .headerFiles,
+	.appiontments .headerFiles,
+	.daily-update .headerFiles,
+	.reminders .headerFiles {
+		margin: auto auto 20px;
+	}
+	table.table-sm td {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.table {
+		width: 670px;
+	}
+	.headerFiles {
+		height: 105px !important;
+	}
+	.profile .profile-pic {
+		display: block;
+		margin-bottom: 0;
+	}
+	.profile .profile-pic .btns {
+		height: 42px;
+		float: left;
+		margin-top: 20px;
+	}
+	.works-page .card-inputs-flex,
+	.agency .card-inputs-flex {
+		display: block;
+	}
+	.works-page .card-inputs-flex .nav,
+	.agency .card-inputs-flex .nav,
+	.contracts .agency-navs {
+		display: none !important;
+	}
+	.agency-navs ul p {
+		padding: 5px 10px;
+	}
+	.makeStyles-currentDate-11 {
+		font-size: 16px;
+	}
+	.schedule .form-control {
+		width: 120px !important;
+	}
+	.makeStyles-selectBox-12 {
+		padding: 5px 12px;
+	}
+	.daily-update .daily-update-wrappe {
+		padding: 20px 15px 20px 0;
+	}
+	.clearPrint button {
+		padding: 10px 20px;
+	}
+	.FileDetails .navs-tab .nav-item {
+		padding: 8px 5px;
+	}
+}

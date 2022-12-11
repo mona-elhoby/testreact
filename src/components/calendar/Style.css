@@ -1,0 +1,65 @@
+.root {
+  overflow: hidden;
+}
+.calendarctr {
+  background-color: #163075;
+  height: 14rem;
+  padding-top: 16px;
+}
+.calendar {
+  /* display: 'flex'; */
+  flex-wrap: nowrap;
+  width: 90%;
+  margin: auto;
+  margin-top: -7rem;
+  background-color: #FFF;
+  /* padding-top: 4rem; */
+  border-radius: .5rem;
+  color: #8898aa;
+  border: 3px dashed #e4e4e4;
+  margin-bottom: 20px;
+}
+.ctrbutton {
+  margin: 0;
+  color: #F0F0F0;
+  background-color: #163075;
+  padding: 0;
+  border-radius: .3rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+.ctrButton:hover {
+  /* background-color: rgba(255; 255; 255;.1); */
+}
+.CtrButton1 {
+  margin-left: -9px;
+  color: #F0F0F0;
+  background-color: #163075;
+  padding: 0;
+  border-radius: .3rem;
+  border: none;
+  box-shadow: none;
+  width: 10px !important;
+  /* &:active: {
+    border: none;
+    box-shadow: none;
+    background-color: #163075 !important;
+  } */
+}
+.CtrButton1:hover {
+  border: none;
+  box-shadow: none;
+  background-color: #163075 !important;
+}
+.SelectBox {
+  padding: 7px 15px;
+  background: #163075;
+  color: #FFF;
+  appearance: none;
+  border: 1px solid #f0f0f0;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 3px 10px !important;
+  font-size: 12
+}

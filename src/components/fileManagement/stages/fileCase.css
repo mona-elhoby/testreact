@@ -1,0 +1,117 @@
+
+
+.file-cases .year p {
+	display: inline-block;
+	background-color: #1e42a0;
+	padding: 5px 20px;
+	width: 80px;
+	text-align: center;
+}
+
+.file-cases .headerFiles .addSes button:last-of-type {
+	line-height: 11px !important;
+	padding: 0 !important;
+}
+
+.file-cases .data .date {
+	background-color: #1e42a0;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 80px;
+	height: 50px;
+	text-align: center !important;
+	line-height: 50px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.file-cases .data .date p {
+	margin-bottom: 0;
+	font-size: 0.8rem;
+}
+
+.file-cases .data .date p:first-of-type {
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+
+.file-cases .year p,
+.file-cases .data .date {
+	margin-right: -40px;
+}
+
+.file-cases .data {
+	border-right: 5px solid #1e42a0;
+	margin-top: -16px;
+	display: flex;
+	padding-bottom: 20px;
+}
+.file-cases .table-responsive {
+	border-radius: 0 !important;
+}
+.file-cases table.table td {
+	border: 1px solid #d8dbe0;
+	padding: 0.1rem 0.3rem 0.3rem !important;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.file-cases table.table td span {
+	display: inline !important;
+}
+.file-cases table.table {
+	/* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 1px 2px 0 rgb(0 0 0 / 24%); */
+	border-right: 3px solid #1e42a0 !important;
+	margin-bottom: 0;
+}
+
+.file-cases .data .date {
+	margin-right: -44px;
+}
+
+.file-cases .data .date,
+.file-cases table.table {
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0 3px;
+}
+
+.file-cases .table-div {
+	position: relative;
+	right: 40px;
+	width: calc(100% - 100px);
+}
+
+.file-cases .table-div:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 2px;
+	height: 44px;
+	background-color: #1e42a0;
+	right: -20px;
+	transform: rotate(90deg);
+	top: 25px;
+}
+
+.file-cases table.table thead th {
+	padding: 0.5rem 0.3rem 0.3rem !important;
+	border: 1px solid rgba(0, 0, 0, 0.1) !important;
+	width: 115px;
+}
+.file-cases .table button {
+	height: 22px;
+	width: 22px;
+	text-align: center;
+	vertical-align: inherit;
+	padding: 2px 3px 2px 0 !important;
+}
+.cases-wrapper {
+	padding-top: 120px;
+}
+
+.file-cases .btn:hover {
+	box-shadow: none;
+}

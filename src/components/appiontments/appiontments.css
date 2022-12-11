@@ -1,0 +1,215 @@
+
+.appiontments {
+	/* margin-top: 80px; */
+	padding: 50px;
+	padding-right: 60px;
+}
+
+.appiontments .css-2royc9 {
+	margin-top: -70px;
+	margin-bottom: 50px;
+	width: calc(100% + 100px);
+	margin-right: -62px;
+}
+
+.appiontments .css-2royc9 button svg {
+	border: 1px solid rgba(0, 0, 0, 0.18);
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.appiontments .css-2royc9 button svg path {
+	color: #142f76 !important;
+}
+
+.appiontments .dataTables_length {
+	display: none !important;
+}
+
+.appiontments .dataTables_wrapper .row:last-of-type {
+	display: none !important;
+}
+
+.appiontments .css-vnkopk-MuiStepLabel-iconContainer {
+	margin-right: -10px;
+}
+
+.appiontments ol li {
+	padding-bottom: 5px !important;
+}
+.events .timeline-eventline:nth-of-type(2),
+.appiontments .present span,
+.appiontments ol li span:hover {
+	background-color: #1e42a0 !important;
+}
+.appiontments .present {
+	font-weight: bold;
+}
+.appiontments .present span,
+.appiontments ol li span,
+.appiontments ol li span:hover {
+	border-color: #1e42a0 !important;
+}
+.appiontments .buttons li svg {
+	fill: #1e42a0 !important;
+}
+.appiontments .buttons li:hover {
+	border-color: #1e42a0 !important;
+	color: #1e42a0 !important;
+}
+.appiontments .events-wrapper {
+	margin-bottom: 30px;
+}
+.appiontments .dataTables_wrapper {
+	margin-top: 40px;
+}.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+	border: 2px solid #142f76 !important;
+	border-radius: 50% !important;
+	color: #fff !important;
+	height: 12px !important;
+	width: 12px !important;
+}
+
+.QontoStepIcon-circle,
+.appiontment .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+	color: #142f76 !important;
+	background: #142f76 !important;
+}
+
+.QontoStepIcon-circle {
+	color: transparent !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+	color: #142f76 !important;
+	/* background: #142f76 !important; */
+}
+
+.css-1bw0nnu-MuiStep-root {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.css-m5vj9m-MuiStepper-root {
+	padding-right: 50px;
+	padding-left: 50px;
+	position: relative;
+}
+
+.css-m5vj9m-MuiStepper-root:after,
+.css-m5vj9m-MuiStepper-root:before {
+	position: absolute;
+	display: block;
+	content: '';
+	height: 3px;
+	width: 50px;
+	background: #142f76;
+}
+
+.css-m5vj9m-MuiStepper-root:after {
+	left: 20px !important;
+	background: #142f76 !important;
+}
+
+.css-m5vj9m-MuiStepper-root:before {
+	right: -2px;
+}
+
+.css-117w1su-MuiStepIcon-text {
+	fill: transparent !important;
+}
+.appiontments .addSes button {
+	padding: 0 !important;
+	line-height: 42px;
+}
+.appiontments .headerFiles .classified {
+	margin-top: 0 !important;
+}
+.appiontments .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	width: 107px !important;
+}
+.appiontments .headerFiles .search {
+	padding-top: 10px;
+}
+.appiontment-modal .appiontmentrow {
+	width: 100%;
+}
+
+.appiontment-modal .dateEditItem{
+	position: relative;
+	width: 100%;
+}
+.appiontment-modal .dateEditItem .date,
+.appiontment-modal .dateEditItem .displayDate{
+	position: absolute;
+	width: 100%;
+	height: 40px !important;
+	top: 6px;
+	left: 15px;
+}
+.appiontment-modal .dateEditItem .date{
+	z-index: 1;
+}
+.appiontment-modal .dateEditItem .displayDate{
+	z-index: 12;
+}
+.appiontment-modal .dateEditItem .displayDate p {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 40px !important;
+	padding: 0 10px !important;
+}
+.appiontment-modal .dateEditItem .displayDate p span{
+	cursor: pointer;
+}
+.appiontment-modal .dateEditItem .date{
+	opacity: 0;
+}
+.appiontment-modal .dateEditItem .show{
+	z-index: 99 !important;
+	opacity: 1;
+}
+.appiontment-modal .dateEditItem .hide{
+	z-index: 3 !important;
+	opacity: 0 !important;
+}
+
+.appiontments .showChart .spanVariant2,
+.appiontments .showChart .spanVariant {
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-top: 25px;
+}
+
+.appiontments .chartLabel2,
+.appiontments .chartLabel {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 5px;
+	width: 100%;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	background: #fff;
+	top: 100%;
+	right: 0px;
+	z-index: 999999999999999;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	display: none;
+}
+
+.appiontments .customchart2:hover .chartLabel2,
+.appiontments .customchart:hover .chartLabel {
+	opacity: 1;
+	display: flex;
+}
+.appiontments .headerFiles {
+	align-content: center;
+	justify-content: space-between;
+}

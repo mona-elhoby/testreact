@@ -1,0 +1,229 @@
+
+/* .fc, .fc *, .fc *:before, .fc *:after{
+    box-sizing: initial !important;
+} */
+.authentication {
+	background-color: #b9cbfb !important;
+	background-color: #3455a9 !important;
+	/* background-image: url('https://lawfirm-admin-template.multipurposethemes.com/images/auth-bg/bg-1.jpg'); */
+	background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));
+	background-size: cover;
+}
+
+.authentication .card {
+	padding: 20px;
+}
+
+.authentication .form-control {
+	margin-bottom: 0 !important;
+}
+
+.authentication .input-group-text {
+	background-color: transparent !important;
+	color: #3455a9 !important;
+}
+
+.authentication .input-group-text,
+.authentication .form-control {
+	border: 1px solid #3455a9;
+}
+
+.authentication .loginbtn {
+	/* background-color: #ee3158 !important; */
+	color: #fff !important;
+	/* border-radius: 10px; */
+}
+.login-box,
+.login-box:hover {
+	position: relative;
+	/* top: 50%; */
+	/* left: 50%; */
+	width: 400px;
+	padding: 40px;
+	/* transform: translate(-50%, -50%); */
+	background: rgba(0, 0, 0, 0.1);
+	/* background: #999ede; */
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+
+	border-radius: 10px;
+}
+
+.login-box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+.authentication .MuiInput-underline:after {
+	border-color: #fff !important;
+}
+.authentication .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+	border: 1px solid rgba(0, 0, 0, 0.1) !important
+}
+.authentication .MuiFormLabel-root.Mui-focused{
+	top: -2px !important
+}
+.login-box .user-box {
+	margin-bottom: 45px;
+}
+.login-box:after,
+.login-box:before {
+	content: ' ';
+	position: absolute;
+	left: -6px;
+	top: 90px;
+	background-color: #9297e0;
+	transform: rotateX(52deg) rotateY(15deg) rotateZ(-38deg);
+	width: 70%;
+	height: 70%;
+	transition: all 0.5s;
+	opacity: 0.3;
+	background-image: url('https://lawfirm-admin-template.multipurposethemes.com/images/svg-icon/color-svg/custom-17.svg');
+	background-size: cover;
+}
+.login-box:after {
+	background-color: #a5aae4;
+	top: 65px;
+	left: 80px;
+	width: 320px;
+	height: 180px;
+	display: none;
+}
+.login-box .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+.login-box .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+}
+.login-box .MuiInput-underline:before {
+	border-color: #fff !important;
+}
+.login-box h5 {
+	color: #fff;
+	font-weight: 400;
+}
+.login-box form .loginbtn {
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #1e42a0;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-top: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.login-box form a {
+	padding: 10px 20px;
+	color: rgba(255, 255, 255, 0.6);
+}
+.login-box a:hover {
+	background: #fff;
+	color: #1e42a0 !important;
+	border-radius: 5px;
+	/* box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff, 0 0 100px #fff; */
+	box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
+
+.login-box a span {
+	position: absolute;
+	display: block;
+}
+
+.login-box a span:nth-child(1) {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #fff);
+	animation: btn-anim1 1s linear infinite;
+}
+
+.authentication .MuiInputLabel-formControl, .authentication .MuiFormLabel-root.Mui-focused{
+	background: transparent !important;
+}
+
+@keyframes btn-anim1 {
+	0% {
+		left: -100%;
+	}
+	50%,
+	100% {
+		left: 100%;
+	}
+}
+
+.login-box a span:nth-child(2) {
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #fff);
+	animation: btn-anim2 1s linear infinite;
+	animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+	0% {
+		top: -100%;
+	}
+	50%,
+	100% {
+		top: 100%;
+	}
+}
+
+.login-box a span:nth-child(3) {
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #fff);
+	animation: btn-anim3 1s linear infinite;
+	animation-delay: 0.5s;
+}@keyframes btn-anim3 {
+	0% {
+		right: -100%;
+	}
+	50%,
+	100% {
+		right: 100%;
+	}
+}
+
+.login-box a span:nth-child(4) {
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #fff);
+	animation: btn-anim4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+	0% {
+		bottom: -100%;
+	}
+	50%,
+	100% {
+		bottom: 100%;
+	}
+}

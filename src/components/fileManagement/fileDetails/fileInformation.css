@@ -1,0 +1,123 @@
+
+/* ------File Details--------- */
+.file-information .list {
+	color: #1e42a0;
+}
+
+.file-information .list li {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.file-information .list li:before {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 3px;
+	height: 100%;
+	background-color: #1e42a0;
+	left: 20px;
+	top: 0;
+}
+
+.file-information .list li:last-of-type:before {
+	display: none;
+}
+
+.file-information .list li span {
+	position: absolute;
+	content: '';
+	display: block;
+	background-color: #1e42a0;
+	color: #fff;
+	left: 0;
+	top: 0;
+	padding: 8px 10px 4px;
+	border-radius: 50%;
+}
+
+.file-information .list h5 {
+	color: #6c757d;
+	font-weight: bold;
+}
+
+.file-information .list p {
+	color: #6c757d !important;
+	font-weight: 400;
+	margin-bottom: 0 !important;
+	width: calc(100% - 20px);
+	font-size: 12px;
+}
+
+.file-information .group-clients {
+	border: 1px solid #1e42a0;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	border-top: none;
+}
+
+.file-information .group-clients h2 {
+	background: #1e42a0;
+	padding: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-right: -1px;
+}
+
+.file-information .card {
+	box-shadow: none;
+	background-color: #1e42a0;
+	padding: 10px;
+	border: 1px solid #1e42a0;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.file-information .card p,
+.file-information .card h4,
+.file-information .card h6 {
+	color: #1e42a0;
+	background-color: #fff;
+	padding: 10px 5px;
+	border-radius: 5px;
+	margin-top: 10px !important;
+}
+.file-information .card strong {
+	font-size: 14px;
+}
+.file-information .card span {
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.file-information .group-clients ul {
+	list-style-type: disclosure-closed;
+	list-style-position: inside;
+	color: #1e42a0;
+}
+
+.file-information ul li span {
+	color: rgba(44, 56, 74, 0.95);
+}
+.file-information .form-label {
+	color: #1e42a0;
+	font-weight: bold;
+}
+.file-information .list h6 {
+	margin-bottom: 0 !important;
+	font-size: 14px;
+	font-weight: 400;
+}
+.agentAutoCompelete{
+	/* width: calc(100% - 50px); */
+	/* display: inline-block; */
+}
+.agentIcon{
+	float: left;
+	margin-top: -30px !important;
+}

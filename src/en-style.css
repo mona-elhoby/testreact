@@ -1,0 +1,256 @@
+.enTextLeft{
+    text-align: left;
+}
+.contacts table tbody td .enBtn{
+    left: auto !important;
+    right: 10px;
+}
+.contacts .arCategory{
+    width: 20px;
+}
+.contacts .enCategory{
+    width: 30px;
+}
+.contacts .contacts-classification .card .enHeader{
+    border-right: none;
+    border-left: 2px solid #fff;
+}
+.enTextLeft .headerFiles .form-control[type='text']{
+    float: right;
+}
+.enTextLeft .css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon {
+	transform: rotate(0) !important;
+}
+.enTextLeft .sidebar-nav .nav-group-toggle::after {
+    content: '\27BA';
+    transform: rotate(360deg) !important;
+}
+.enTextLeft .sidebar-nav .nav-group .nav-group-items .nav-item{
+    padding-right: 10px !important;
+    padding-left: 25px;
+}
+.enTextLeft .sidebar-nav .nav-group .nav-group-items{
+    padding-left: 20px;
+}
+.enTextLeft .sidebar-nav .nav-group .nav-group-items .nav-link{
+    padding-left: 25px !important;
+    margin-top: -30px;
+}
+.enTextLeftPopup .MuiInputLabel-formControl {
+    left: 20px !important;
+}
+.enTextLeftPopup .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+.enTextLeft .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+    right: 10px !important;
+}
+.enTextLeftPopup .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    margin-left: 10px;
+}
+.enTextLeftPopup .rowNotes{
+    padding-left: 15px !important;
+}
+.enTextLeftPopup .colNotes {
+    padding-left: 25px !important;
+}
+.enTextLeft .classified .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+ padding: 0 20px 0 0 !important;
+}
+.enTextLeft .checkboxBtn .spanChartEn{
+    margin-left: 10px !important;
+}
+.enTextLeft .classified-global-criteria{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.enTextLeft .reminders-card .staticsCard .child-staticsCard:nth-of-type(2n){
+    border-right:  none;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+.enTextLeftPopup  .reminderDetails-wrapper .title{
+    border-top-right-radius: 80px;
+    border-top-left-radius: 0
+}
+.enTextLeft .reminders-card .card-foot .card-footer-absolute{
+    text-align: right !important;
+}
+.enTextLeft .daily-update .dailySection {
+    border-right: none;
+    border-left: 3px solid #8c8c8c;
+}
+.enTextLeft .daily-update .dailySection .daily-wrapper .header svg, .enTextLeft .daily-update .dailySection .daily-wrapper .body svg{
+    left: -15px;
+    right: auto;
+}
+.enTextLeft .daily-update .dailySection .daily-wrapper .header .name:after, .enTextLeft .daily-update .dailySection .daily-wrapper .body-data:after{
+    right: auto;
+    left: -30px;
+    border-color: transparent #8c8c8c transparent transparent;
+}
+.enTextLeft .daily-update .dailySection .daily-wrapper p{
+    right: auto;
+    left: -25px
+}
+.enTextLeft .daily-update .daily-update-wrapper{
+    padding: 20px 15px 20px 35px;
+}
+.enTextLeft .daily-update .dailySection .daily-wrapper .header .name, .enTextLeft .daily-update .dailySection .daily-wrapper .body-data{
+    margin-left: 30px;
+    margin-right: auto;
+}
+.enTextLeft .daily-update .dailySection .daily-wrapper .header .name, .enTextLeft .daily-update .dailySection .daily-wrapper .body-data{
+padding: 0;
+}
+.enTextLeft .file-management .card-header small{
+    float: left;
+}
+.enTextLeft .file-management .card-header a div:first-of-type h5{
+    text-align: left;
+}
+.enTextLeft .file-management .card-header{
+    padding: 15px 8px 0 25px !important;
+}
+.enTextLeft .file-information .list li span{
+    left: auto;
+    right: 0;
+}
+.enTextLeft .file-information .list li:before{
+    left: auto;
+    right: 20px
+}
+.enTextLeftPopup .carousel .carousel-control-prev-icon:after{
+    content: '<< Next'
+}
+.enTextLeftPopup .carousel .carousel-control-next-icon:after{
+    content: 'Prev >> '
+}
+.enTextLeftPopup .carousel .carousel-control-prev-icon{
+    text-align: left;
+}
+.enTextLeftPopup .agentIcon{
+    float: right;
+}
+.enTextLeft .FileDetails .navs-tab .nav-item{
+    border-right: none;
+    border-left: 1px solid #d9d9d9;
+}
+.enTextLeft .FileDetails .navs-tab .nav-item:last-of-type{
+    border-right:1px solid #d9d9d9;
+}
+.enTextLeft .relativeDiv-wrapper{
+    padding-left: 60px;
+    padding-right: 0;
+}
+.enTextLeft .file-cases .data .date{
+    margin-right: auto;
+    margin-left: -44px;
+}
+.enTextLeft .file-cases .data{
+    border-left: 5px solid #1e42a0;
+    border-right: none;
+}
+.enTextLeft .file-cases .table-div:after{
+    right: auto;
+    left: -20px;
+    height: 38px;
+}
+.enTextLeft .file-sessions .sesData{
+    border-right: 2px dotted gray;
+    border-left: none;
+}
+.enTextLeft .file-sessions .borderRight{
+    border-left: 2px dotted gray;
+    border-right: none;
+}
+.enTextLeft .file-sessions .sesData .sesDate{
+    float: right;
+    margin-right: -35px  !important;
+    margin-left: auto  !important;
+}
+.enTextLeft .file-sessions .sesData .data-container .icon{
+    right: -15px;
+    left: auto;
+}
+.enTextLeft .file-sessions .sesData .data:after {
+    border-color: transparent transparent transparent #FFF;
+    right: -2px;
+    left: auto;
+}
+.enTextLeft .file-sessions .sesData .data:before {
+    border-color: transparent transparent transparent #8c8c8c;
+    right: -4px;
+    left: auto;
+}
+.enTextLeft .file-sessions .data:after, .enTextLeft .file-sessions .sesData .data:before, .enTextLeft .file-sessions .borderRight .data:after{
+    width: 13px;
+}
+.enTextLeft .file-sessions .borderRight .data:after {
+    border-color: transparent #8c8c8c transparent transparent;
+    left: 0;
+    right: auto
+}
+.enTextLeft .file-sessions .borderRight {
+    margin-left: -26px;
+    margin-right: auto;
+}
+.enTextLeft .file-sessions .borderRight .sesDate{
+    float: left !important;
+    margin-left: -35px;
+    margin-right: auto;
+}
+.enTextLeft .file-sessions .borderRight .data-container .icon{
+    left: -15px;
+    right: auto;
+}
+.enTextLeft .file-cases table.table{
+    border-right: none !important;
+    border-left: 3px solid #1e42a0 !important;
+}
+.enTextLeftPopup .modal-dialog .sesTime {
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+}
+.enTextLeft .card-title{
+    text-align: left;
+}
+.enTextLeftPopup .executePopup .tabs{
+    padding-left: 0 !important;
+}
+.enTextLeft .homeDashboard .cases-chart .card-header{
+    padding-left: 10px;
+}
+.enTextLeft .homeDashboard .scheduleCard .icon{
+    margin-left: 0 !important;
+    line-height: 0;
+}
+.enTextLeft .homeDashboard .scheduleCard .time{
+    margin-left: 15px;
+}
+.homeDashboard .scheduleCard .time h6{
+    line-height: 30px;
+}
+@media (max-width: 768px) {
+    .enTextLeft .file-sessions .borderRight{
+        margin-right: 0 !important;
+        margin-left: auto !important;
+    }
+    .enTextLeft .file-sessions .sesData .data:after, .enTextLeft .file-sessions .borderRight .data:after {
+        border-color: transparent #8c8c8c transparent transparent  !important;
+        left: 0 !important;
+        right: auto !important;
+    }
+    .enTextLeft .file-sessions .sesData .sesDate{
+        float: left !important;
+        margin-right: 0 !important;
+        margin-left: -30px !important;
+    }
+    .enTextLeft .file-sessions .sesData{
+        border-right: none !important;
+        border-left: 2px dotted gray !important;
+        margin-right: auto !important;
+        margin-left: 40px !important;
+    }
+    .enTextLeft .file-sessions .sesData .data-container .icon{
+        left: -15px !important;
+        right: auto !important;
+    }
+}
